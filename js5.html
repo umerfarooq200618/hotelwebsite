@@ -1,0 +1,22 @@
+<html>
+    <head> 
+        <title> JS DEMO</title>
+        <script type="text/java script">
+            function Lower()
+            {
+                var a=document.getelementById("t1").value;
+                document.getelementById("t1").value=a.toLowerCase();
+             }
+            function Upper()
+            {
+                var a=document.getelementById("t1").value;
+                document.getelementById("t1").value=a.toUpperCase();
+            }
+        </script>
+   </head>
+   <body>
+   <form>
+     Enter your name<input type="text"id="t1"onblur="Loewer();"onfocus="Upper();"/>
+   </form>
+   </body>
+</html>
